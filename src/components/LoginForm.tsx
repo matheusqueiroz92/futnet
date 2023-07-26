@@ -40,6 +40,8 @@ const TagMain = styled.main`
     h1 {
       color: var(--green-futnet);
       font-weight: 800;
+      margin-bottom: 20px;
+      font-size: 30px;
     }
 
     form {
@@ -111,7 +113,7 @@ export default function LoginForm() {
           width={100}
           isClickToPauseDisabled={true}
         />
-        <h1>Login</h1>
+        <h1>Login FutNet</h1>
         <form>
           <label htmlFor="email-address">
             E-mail:
