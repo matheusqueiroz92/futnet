@@ -3,3 +3,5 @@
 /.next
 
 /coverage
+
+/api/node_modules
